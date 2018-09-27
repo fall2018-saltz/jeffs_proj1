@@ -63,9 +63,13 @@
             "assigned_to": "not assigned",
             "desc": "remove NAs",
             "name": "clean.R",
-            "task_status": "proposed"
+            "task_status": "not started"
+        },
+        {
+            "desc": "",
+            "name": "genHist.R"
         }
     ],
-    "updated_at": "2018-09-27 15:28:08",
+    "updated_at": "2018-09-27 15:39:16",
     "url": "https://github.com/fall2018-saltz/jeffs_proj1"
 }
