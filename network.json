@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "createSubset.R"
         }
     ],
     "nodes": [
@@ -34,8 +44,12 @@
         },
         {
             "name": "data.csv"
+        },
+        {
+            "desc": "",
+            "name": "createSubset.R"
         }
     ],
-    "updated_at": "2018-09-27 15:13:49",
+    "updated_at": "2018-09-27 15:22:10",
     "url": "https://github.com/fall2018-saltz/jeffs_proj1"
 }
