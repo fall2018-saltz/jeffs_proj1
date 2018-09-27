@@ -68,8 +68,11 @@
         {
             "desc": "",
             "name": "genHist.R"
+        },
+        {
+            "name": "HistPlot.png"
         }
     ],
-    "updated_at": "2018-09-27 15:39:16",
+    "updated_at": "2018-09-27 15:39:26",
     "url": "https://github.com/fall2018-saltz/jeffs_proj1"
 }
