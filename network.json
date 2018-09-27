@@ -53,6 +53,16 @@
             ],
             "source": "smallerFile.csv",
             "target": "genHist.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "genHist.R",
+            "target": "HistPlot.png"
         }
     ],
     "nodes": [
@@ -83,6 +93,6 @@
             "name": "HistPlot.png"
         }
     ],
-    "updated_at": "2018-09-27 15:39:47",
+    "updated_at": "2018-09-27 15:40:02",
     "url": "https://github.com/fall2018-saltz/jeffs_proj1"
 }
