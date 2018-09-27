@@ -43,6 +43,16 @@
             ],
             "source": "createSubset.R",
             "target": "smallerFile.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfForHist",
+                    "type": "csv"
+                }
+            ],
+            "source": "smallerFile.csv",
+            "target": "genHist.R"
         }
     ],
     "nodes": [
@@ -73,6 +83,6 @@
             "name": "HistPlot.png"
         }
     ],
-    "updated_at": "2018-09-27 15:39:26",
+    "updated_at": "2018-09-27 15:39:47",
     "url": "https://github.com/fall2018-saltz/jeffs_proj1"
 }
