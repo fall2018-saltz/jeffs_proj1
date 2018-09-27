@@ -50,9 +50,6 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
-        },
-        {
             "name": "data.csv"
         },
         {
@@ -61,8 +58,14 @@
         },
         {
             "name": "smallerFile.csv"
+        },
+        {
+            "assigned_to": "not assigned",
+            "desc": "remove NAs",
+            "name": "clean.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-09-27 15:22:49",
+    "updated_at": "2018-09-27 15:28:08",
     "url": "https://github.com/fall2018-saltz/jeffs_proj1"
 }
