@@ -1,1 +1,2 @@
 
+histPlot <- hist(dfForHist$Ozone)
