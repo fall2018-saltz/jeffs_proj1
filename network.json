@@ -63,6 +63,16 @@
             ],
             "source": "genHist.R",
             "target": "HistPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "SatisfactionSurvey.csv",
+            "target": "test.R"
         }
     ],
     "nodes": [
@@ -100,6 +110,6 @@
             "name": "test.R"
         }
     ],
-    "updated_at": "2018-10-09 18:56:27",
+    "updated_at": "2018-10-09 18:56:41",
     "url": "https://github.com/fall2018-saltz/jeffs_proj1"
 }
