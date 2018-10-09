@@ -11,7 +11,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "satisfactionsurvey.csv",
+            "source": "satisfactionsurvey_bug.csv",
             "target": "clean.R"
         },
         {
@@ -67,7 +67,7 @@
     ],
     "nodes": [
         {
-            "name": "satisfactionsurvey.csv"
+            "name": "satisfactionsurvey_bug.csv"
         },
         {
             "name": "data.csv"
@@ -93,6 +93,6 @@
             "name": "HistPlot.png"
         }
     ],
-    "updated_at": "2018-10-09 18:54:01",
+    "updated_at": "2018-10-09 18:55:25",
     "url": "https://github.com/fall2018-saltz/jeffs_proj1"
 }
