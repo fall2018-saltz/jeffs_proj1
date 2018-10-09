@@ -1,0 +1,98 @@
+{
+    "collaborators": [
+        "jss22"
+    ],
+    "created_at": "2018-09-27 15:13:49",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionsurvey.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "createSubset.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "subsetDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "createSubset.R",
+            "target": "smallerFile.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfForHist",
+                    "type": "csv"
+                }
+            ],
+            "source": "smallerFile.csv",
+            "target": "genHist.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "genHist.R",
+            "target": "HistPlot.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "satisfactionsurvey.csv"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "desc": "",
+            "name": "createSubset.R"
+        },
+        {
+            "name": "smallerFile.csv"
+        },
+        {
+            "assigned_to": "not assigned",
+            "desc": "remove NAs",
+            "name": "clean.R",
+            "task_status": "not started"
+        },
+        {
+            "desc": "",
+            "name": "genHist.R"
+        },
+        {
+            "name": "HistPlot.png"
+        }
+    ],
+    "updated_at": "2018-10-09 18:54:01",
+    "url": "https://github.com/fall2018-saltz/jeffs_proj1"
+}
