@@ -71,7 +71,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "satisfaction_survey.csv",
+            "source": "satisfactionSurvey.csv",
             "target": "test.R"
         }
     ],
@@ -103,13 +103,13 @@
             "name": "HistPlot.png"
         },
         {
-            "name": "satisfaction_survey.csv"
+            "name": "satisfactionSurvey.csv"
         },
         {
             "desc": "",
             "name": "test.R"
         }
     ],
-    "updated_at": "2018-10-09 18:57:52",
+    "updated_at": "2018-10-09 19:01:56",
     "url": "https://github.com/fall2018-saltz/jeffs_proj1"
 }
